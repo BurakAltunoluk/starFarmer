@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -14,26 +14,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="StarFarmer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" progressImage="waterTank" trackImage="water" translatesAutoresizingMaskIntoConstraints="NO" id="pje-In-FkY">
-                                <rect key="frame" x="0.0" y="94" width="414" height="43"/>
+                                <rect key="frame" x="0.0" y="94" width="428" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="SIb-1a-NMx"/>
                                 </constraints>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500L" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="TUu-8e-Ior">
-                                <rect key="frame" x="349.66666666666669" y="104.66666666666667" width="54.333333333333314" height="22"/>
-                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="22"/>
-                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <rect key="frame" x="364.66666666666669" y="102.66666666666667" width="53.333333333333314" height="26.000000000000014"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="22"/>
+                                <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7n-Cp-R6d">
-                                <rect key="frame" x="0.0" y="137" width="414" height="475"/>
+                                <rect key="frame" x="0.0" y="137" width="428" height="505"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field" translatesAutoresizingMaskIntoConstraints="NO" id="WrS-Qn-zWX">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="475"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="428" height="505"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
@@ -45,7 +45,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All animals drink 0L water ph" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="VvL-YW-gdP">
-                                <rect key="frame" x="0.0" y="612" width="414" height="31"/>
+                                <rect key="frame" x="0.0" y="642" width="428" height="31"/>
                                 <color key="backgroundColor" red="0.36457879939999999" green="0.28053771579999998" blue="0.17847397470000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="j7j-VT-25u"/>
@@ -54,61 +54,61 @@
                                 <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eM-OK-yNT">
-                                <rect key="frame" x="20" y="60" width="76" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eM-OK-yNT">
+                                <rect key="frame" x="20" y="60" width="34" height="26"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frU-H8-ifj">
-                                <rect key="frame" x="183" y="60" width="221" height="31"/>
+                                <rect key="frame" x="141" y="60" width="277" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Topup Water 50L"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Topup Water 100L"/>
                                 <connections>
                                     <action selector="topUpWaterInTank:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lUU-FO-rqT"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="VW3-lA-yiQ">
-                                <rect key="frame" x="16" y="661" width="50" height="50"/>
+                                <rect key="frame" x="16" y="691" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Yj8-yb-LoV"/>
                                     <constraint firstAttribute="width" constant="50" id="gBD-og-Ex7"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sheep" translatesAutoresizingMaskIntoConstraints="NO" id="5vL-Lp-JkE">
-                                <rect key="frame" x="20" y="711" width="50" height="50"/>
+                                <rect key="frame" x="20" y="741" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="1Vs-3w-0QM"/>
                                     <constraint firstAttribute="height" constant="50" id="pey-PO-PyG"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giraffe" translatesAutoresizingMaskIntoConstraints="NO" id="elH-gO-9rw">
-                                <rect key="frame" x="20" y="766" width="50" height="50"/>
+                                <rect key="frame" x="20" y="796" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="lNY-1E-GGC"/>
                                     <constraint firstAttribute="width" constant="50" id="xSb-5r-BG1"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cow - Water Use 5L/hr" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="LbF-oM-fsA">
-                                <rect key="frame" x="86" y="677" width="208" height="20.333333333333371"/>
+                                <rect key="frame" x="86" y="707" width="222" height="20.666666666666629"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sheep - Water Use 3L/hr" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="VKC-51-NPH">
-                                <rect key="frame" x="90" y="727" width="204" height="20.333333333333371"/>
+                                <rect key="frame" x="90" y="757.33333333333337" width="218" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Giraffe - Water Use 10L/hr" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="cxX-MG-c8u">
-                                <rect key="frame" x="90" y="782" width="204" height="20.333333333333371"/>
+                                <rect key="frame" x="90" y="812" width="218" height="20.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="cow" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G46-ld-CGX">
-                                <rect key="frame" x="354" y="665" width="50" height="31"/>
+                                <rect key="frame" x="368" y="695" width="50" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="CGs-in-mTS"/>
                                     <constraint firstAttribute="width" constant="50" id="Pg3-XL-3QO"/>
@@ -128,7 +128,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="sheep" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJU-3M-8Gw">
-                                <rect key="frame" x="354" y="718" width="50" height="31"/>
+                                <rect key="frame" x="368" y="748" width="50" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="gCG-J0-mp6"/>
                                     <constraint firstAttribute="height" constant="31" id="tCN-0v-Ufn"/>
@@ -148,7 +148,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="giraffe" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="che-OL-a33">
-                                <rect key="frame" x="354" y="771" width="50" height="31"/>
+                                <rect key="frame" x="368" y="801" width="50" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="pxJ-kd-78p"/>
                                     <constraint firstAttribute="height" constant="31" id="tSY-HD-J4a"/>
@@ -167,6 +167,12 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Xu-tB-ArU"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1c-9N-U6h">
+                                <rect key="frame" x="56" y="60" width="42" height="26"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.79767589569091801" green="0.71144697089760978" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -201,12 +207,14 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pje-In-FkY" secondAttribute="trailing" id="hcl-Kt-TLI"/>
                             <constraint firstItem="frU-H8-ifj" firstAttribute="leading" secondItem="5eM-OK-yNT" secondAttribute="trailing" constant="87" id="hoV-00-PkC"/>
                             <constraint firstItem="cxX-MG-c8u" firstAttribute="leading" secondItem="elH-gO-9rw" secondAttribute="trailing" constant="20" id="hvb-oT-mpA"/>
+                            <constraint firstItem="J1c-9N-U6h" firstAttribute="leading" secondItem="5eM-OK-yNT" secondAttribute="trailing" constant="2" id="kwV-kh-ecf"/>
                             <constraint firstItem="pje-In-FkY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m0j-Ja-Vgi"/>
                             <constraint firstItem="Q7n-Cp-R6d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o94-HP-NnZ"/>
                             <constraint firstItem="lJU-3M-8Gw" firstAttribute="leading" secondItem="VKC-51-NPH" secondAttribute="trailing" constant="60" id="oL2-Cb-80T"/>
                             <constraint firstItem="pje-In-FkY" firstAttribute="top" secondItem="5eM-OK-yNT" secondAttribute="bottom" constant="8" symbolic="YES" id="oVD-eM-I4V"/>
                             <constraint firstItem="5vL-Lp-JkE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="paS-XT-fWJ"/>
                             <constraint firstItem="VKC-51-NPH" firstAttribute="leading" secondItem="5vL-Lp-JkE" secondAttribute="trailing" constant="20" id="r6f-8Q-trb"/>
+                            <constraint firstItem="pje-In-FkY" firstAttribute="top" secondItem="J1c-9N-U6h" secondAttribute="bottom" constant="8" symbolic="YES" id="smj-6l-2Pb"/>
                             <constraint firstItem="pje-In-FkY" firstAttribute="top" secondItem="frU-H8-ifj" secondAttribute="bottom" constant="3" id="vBp-R5-Hwl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TUu-8e-Ior" secondAttribute="trailing" constant="10" id="wIk-TC-xhU"/>
                             <constraint firstItem="G46-ld-CGX" firstAttribute="leading" secondItem="LbF-oM-fsA" secondAttribute="trailing" constant="60" id="xzO-U1-6Rs"/>
@@ -237,8 +245,8 @@
         <systemColor name="systemBrownColor">
             <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tertiarySystemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

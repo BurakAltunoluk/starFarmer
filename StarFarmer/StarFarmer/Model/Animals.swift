@@ -7,21 +7,19 @@
 
 import Foundation
 import UIKit
-import AVFoundation
-
 
 struct Animals {
     
     var typeOfAnimal: String
     var soundOfAnimal: String
-    var pictureOfAnimal: String
+    var pictureOfAnimal: UIImage
     var waterDrink: Int
-    
+   
     init(animalName: String) {
-       
+        
         typeOfAnimal = animalName
         soundOfAnimal = animalName
-        pictureOfAnimal = animalName
+        pictureOfAnimal = UIImage(named: animalName)!
         waterDrink = 0
         
         switch animalName {
@@ -30,13 +28,9 @@ struct Animals {
         case "giraffe" : waterDrink = 10
         default: waterDrink = 0
         }
-        
     }
     
-    
-    
-    func playSound() {
-        print("playSound")
-      }
+  
     
 }
+

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		606E0EF22888BEAD00B87B02 /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 606E0EF12888BEAD00B87B02 /* cow.mp3 */; };
+		606E0EF42888BFAF00B87B02 /* giraffe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 606E0EF32888BFAF00B87B02 /* giraffe.mp3 */; };
+		606E4449288EF90400EA8E82 /* MyFarmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606E4448288EF90400EA8E82 /* MyFarmer.swift */; };
 		607992D12886EE5A00DAE37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607992D02886EE5A00DAE37F /* AppDelegate.swift */; };
 		607992D32886EE5A00DAE37F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607992D22886EE5A00DAE37F /* SceneDelegate.swift */; };
 		607992D52886EE5A00DAE37F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607992D42886EE5A00DAE37F /* MainVC.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		606E0EF12888BEAD00B87B02 /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
+		606E0EF32888BFAF00B87B02 /* giraffe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giraffe.mp3; sourceTree = "<group>"; };
+		606E4448288EF90400EA8E82 /* MyFarmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFarmer.swift; sourceTree = "<group>"; };
 		607992CD2886EE5A00DAE37F /* StarFarmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarFarmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607992D02886EE5A00DAE37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607992D22886EE5A00DAE37F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,11 +66,10 @@
 		607992CF2886EE5A00DAE37F /* StarFarmer */ = {
 			isa = PBXGroup;
 			children = (
-				60EA559A288766590084B44E /* Utility */,
-				60EA559B2887F3550084B44E /* AnimalSoundLibrary */,
+				607992E42886EE8400DAE37F /* Model */,
 				607992E62886EE9A00DAE37F /* View */,
 				607992E52886EE9100DAE37F /* Controller */,
-				607992E42886EE8400DAE37F /* Model */,
+				60EA559B2887F3550084B44E /* AnimalSoundLibrary */,
 				607992D92886EE5D00DAE37F /* Assets.xcassets */,
 				607992DE2886EE5D00DAE37F /* Info.plist */,
 			);
@@ -74,6 +79,7 @@
 		607992E42886EE8400DAE37F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				606E4448288EF90400EA8E82 /* MyFarmer.swift */,
 				60EA559628874F1B0084B44E /* Animals.swift */,
 			);
 			path = Model;
@@ -90,25 +96,20 @@
 		607992E62886EE9A00DAE37F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				607992D62886EE5A00DAE37F /* Main.storyboard */,
+				607992DB2886EE5D00DAE37F /* LaunchScreen.storyboard */,
 				607992D02886EE5A00DAE37F /* AppDelegate.swift */,
 				607992D22886EE5A00DAE37F /* SceneDelegate.swift */,
-				607992DB2886EE5D00DAE37F /* LaunchScreen.storyboard */,
-				607992D62886EE5A00DAE37F /* Main.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		60EA559A288766590084B44E /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utility;
 			sourceTree = "<group>";
 		};
 		60EA559B2887F3550084B44E /* AnimalSoundLibrary */ = {
 			isa = PBXGroup;
 			children = (
 				60EA559C2887F37D0084B44E /* sheep.mp3 */,
+				606E0EF12888BEAD00B87B02 /* cow.mp3 */,
+				606E0EF32888BFAF00B87B02 /* giraffe.mp3 */,
 			);
 			path = AnimalSoundLibrary;
 			sourceTree = "<group>";
@@ -175,6 +176,8 @@
 				607992DD2886EE5D00DAE37F /* LaunchScreen.storyboard in Resources */,
 				607992DA2886EE5D00DAE37F /* Assets.xcassets in Resources */,
 				607992D82886EE5A00DAE37F /* Main.storyboard in Resources */,
+				606E0EF22888BEAD00B87B02 /* cow.mp3 in Resources */,
+				606E0EF42888BFAF00B87B02 /* giraffe.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +192,7 @@
 				60EA559728874F1B0084B44E /* Animals.swift in Sources */,
 				607992D12886EE5A00DAE37F /* AppDelegate.swift in Sources */,
 				607992D32886EE5A00DAE37F /* SceneDelegate.swift in Sources */,
+				606E4449288EF90400EA8E82 /* MyFarmer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
